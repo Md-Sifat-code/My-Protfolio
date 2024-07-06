@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #081b29;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>div>img{
+    height: 60px;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+header>div>a{
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 700;
+   
+    
+
+}
+
+.mainnav{
+    display: flex;
+    padding: 10px;
+    margin-left: 40px;
+   
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li{
+    margin-right: 50px;
+    color: black;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: #081b29;
+}
+button{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 4px solid rgb(56, 7, 134);
+    background-color: #081b29;
+    color: aliceblue;
+    box-shadow: 1px 1px 15px red;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+a:hover {
+    color: aqua;
+}
+.dropdown{
+    list-style-type: none;
+    display: none;
+    position: absolute; 
+}
+/* nav li:hover.dropdown{
+    display: block;
+} */
+main{
+    margin: 230px;
+    /* border: 2px solid red; */
+}
+.all-content{
+    display: flex;
+    gap: 200px;
+
+
+    
+}
+.notes{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: -5px 5px 5px aqua;
+    border-radius: 50px;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+main>div>div>h2{
+    font-weight: 700px;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+}
+main>div>div>p{
+    font-size: 24px;
+    text-align: center;
+    font-family: cursive;
+}
+.icons{
+    margin-top: 20px;
+
+}
+#fb{
+    border: 3px solid white;
+    height: auto;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+#git{
+    border: 3px solid white;
+    height: auto;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+#email{
+    border: 3px solid white;
+    height: auto;
+    /* padding: 10px; */
+    height: 74px;
+    border-radius: 50px;
+    
+}
+.icons #fb:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
+.icons #git:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
+.icons #email:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
+.picture-section{
+    height: fit-content;
+    box-shadow: 5px 5px 5px aqua;
+    /* height: 450px; */
+    background-color: rgb(12, 66, 70);
+    border: 2px solid rgb(255, 255, 255);
+    /* overflow: hidden; */
+    border-radius: 400px;
+    border-width: ;
+
+}
+#human{
+    margin-top: 100px;
+    /* padding: 5px; */
+    
+}
